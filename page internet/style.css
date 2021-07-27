@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+  }
+    
+  header{
+      background: orange;
+      opacity: 0.3;
+      height:75px;
+      width:100vw;
+      top:0;
+      display:flex;
+      justify-content:flex-end;
+      position:fixed;
+  }
+    
+  #navigation{
+    width: 50vw;
+    display:flex;
+    justify-content: space-around;
+    align-items:center; 
+    font-style: italic;
+  }
+    
+    a{
+      
+      font-size:18px;
+      text-decoration:none;
+     
+     
+  }
+  
+  #pascale{
+    
+    background-color: lightsalmon;
+    height: 70vh;
+    margin-top:75px;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    
+  }
+  
+  h1{
+    font-size: 52px; 
+    text-align: center;
+    color: wheat;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+  }
+  #pascale img{
+    border: 9px solid rgb(253, 138, 93);
+    border-radius:50%;
+    margin-right:100px;
+   }
+  
+   h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 30px; 
+    text-decoration: underline;
+    font-family: fantasy;
+   }
+   
+  
+ #image {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 50vh;
+    margin-top: 50px;
+    font-family: cursive;
+  }
+  
+  #image a{
+    text-align:center;
+    width: 30vw;
+    }
+  
+  a img{
+    width:150px;
+    height:150px;
+  }
+  
+  footer{
+    background-color:lightsalmon;
+    padding: 40px;
+    display:flex;
+    justify-content:space-around;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  @media only screen 
+    and (min-width: 375px)
+    and (max-width: 736px)
+    and (orientation: portrait){
+      
+    #navigation{  
+        width: 80vw;
+    }
+    h1{
+      margin-bottom: 50px;
+      font-size: 30px;
+      width: 100%;
+     }
+
+    #pascale{
+      height: 80vh;
+      flex-direction: column;
+      justify-content:center;
+    }
+    #pascale img{
+      margin-right: 0;
+    }
+  
+    h2{
+      font-size: 24px;
+    }
+  
+    #image{
+      flex-direction:column;
+      align-items: center;
+      height: 150vh;
+    }
+    
+    #image a{
+    width: 100%;
+    font-size:18px;
+    }
+  
+    footer{
+      display:flex;
+      justify-content: space-between;
+    }
+    
+    footer a {
+      text-align: center;
+    } 
+  }
